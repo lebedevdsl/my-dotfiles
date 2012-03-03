@@ -6,5 +6,7 @@ cmap w!!   %!sudo tee %
 set shiftwidth=2
 set ruler
 set nowrap
-set smarttab
 set nocompatible
+set expandtab
+set tabstop =2
+inoremap <S-Tab> <C-V><Tab>
